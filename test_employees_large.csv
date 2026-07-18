@@ -1,0 +1,27 @@
+firstName,lastName,email,department,designation,salary,role,managerEmail
+Alice,CEO,alice.ceo@example.com,Executive,CEO,300000,Super Admin,
+Bob,HR,bob.hr@example.com,HR,HR Manager,120000,HR Manager,alice.ceo@example.com
+Charlie,Eng,charlie.eng@example.com,Engineering,Engineering Manager,180000,Employee,alice.ceo@example.com
+Dave,Fin,dave.fin@example.com,Finance,Finance Manager,150000,Employee,alice.ceo@example.com
+Eve,HR,eve.hr@example.com,HR,HR Specialist,80000,Employee,bob.hr@example.com
+Frank,HR,frank.hr@example.com,HR,Recruiter,75000,Employee,bob.hr@example.com
+Grace,Fin,grace.fin@example.com,Finance,Accountant,90000,Employee,dave.fin@example.com
+Heidi,Fin,heidi.fin@example.com,Finance,Financial Analyst,95000,Employee,dave.fin@example.com
+Ivan,Fin,ivan.fin@example.com,Finance,Payroll Specialist,85000,Employee,dave.fin@example.com
+Jack,LeadA,jack.lead@example.com,Engineering,Team Lead A,140000,Employee,charlie.eng@example.com
+Karen,LeadB,karen.lead@example.com,Engineering,Team Lead B,140000,Employee,charlie.eng@example.com
+Leo,LeadC,leo.lead@example.com,Engineering,Team Lead C,140000,Employee,charlie.eng@example.com
+Mia,Dev,mia.dev@example.com,Engineering,Frontend Developer,100000,Employee,jack.lead@example.com
+Noah,Dev,noah.dev@example.com,Engineering,Backend Developer,105000,Employee,jack.lead@example.com
+Olivia,Dev,olivia.dev@example.com,Engineering,Fullstack Developer,110000,Employee,jack.lead@example.com
+Paul,Dev,paul.dev@example.com,Engineering,Backend Developer,105000,Employee,karen.lead@example.com
+Quinn,Dev,quinn.dev@example.com,Engineering,Data Engineer,115000,Employee,karen.lead@example.com
+Rachel,Dev,rachel.dev@example.com,Engineering,QA Engineer,90000,Employee,karen.lead@example.com
+Sam,Dev,sam.dev@example.com,Engineering,DevOps Engineer,125000,Employee,karen.lead@example.com
+Tom,Dev,tom.dev@example.com,Engineering,Frontend Developer,95000,Employee,leo.lead@example.com
+Uma,Dev,uma.dev@example.com,Engineering,UI/UX Developer,95000,Employee,leo.lead@example.com
+Victor,Dev,victor.dev@example.com,Engineering,Backend Developer,100000,Employee,leo.lead@example.com
+Wendy,Dev,wendy.dev@example.com,Engineering,Mobile Developer,110000,Employee,leo.lead@example.com
+Xander,Dev,xander.dev@example.com,Engineering,Mobile Developer,105000,Employee,leo.lead@example.com
+Yara,Mkt,yara.mkt@example.com,Marketing,Marketing Director,140000,Employee,alice.ceo@example.com
+Zane,Mkt,zane.mkt@example.com,Marketing,Content Strategist,85000,Employee,yara.mkt@example.com

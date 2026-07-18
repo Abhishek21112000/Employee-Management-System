@@ -1,0 +1,11 @@
+firstName,lastName,email,department,designation,salary,managerEmail
+Alan,Turing,alan.t@example.com,Executive,CEO,250000,
+Grace,Hopper,grace.h@example.com,Engineering,VP of Engineering,180000,alan.t@example.com
+Ada,Lovelace,ada.l@example.com,Product,VP of Product,175000,alan.t@example.com
+Margaret,Hamilton,margaret.h@example.com,Engineering,Software Manager,140000,grace.h@example.com
+Linus,Torvalds,linus.t@example.com,Engineering,Senior Developer,120000,margaret.h@example.com
+Tim,Berners-Lee,tim.b@example.com,Engineering,Web Developer,95000,margaret.h@example.com
+Katherine,Johnson,katherine.j@example.com,Product,Product Manager,110000,ada.l@example.com
+John,Von Neumann,john.v@example.com,Product,Data Scientist,130000,ada.l@example.com
+Hedy,Lamarr,hedy.l@example.com,Engineering,Security Engineer,125000,grace.h@example.com
+Claude,Shannon,claude.s@example.com,Executive,CTO,200000,alan.t@example.com

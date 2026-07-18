@@ -1,0 +1,6 @@
+firstName,lastName,email,department,designation,salary
+Alice,Johnson,alice.j@example.com,Engineering,Frontend Developer,85000
+Bob,Smith,bob.smith@example.com,Engineering,Backend Developer,90000
+Charlie,Brown,charlie.b@example.com,Marketing,SEO Specialist,65000
+Diana,Prince,diana.p@example.com,Sales,Account Executive,75000
+Evan,Wright,evan.w@example.com,Design,UX Designer,70000

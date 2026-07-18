@@ -42,7 +42,7 @@ const EmployeeFormPage: React.FC = () => {
     reset,
     formState: { errors, isSubmitting },
   } = useForm<EmployeeFormValues>({
-    resolver: zodResolver(employeeSchema),
+    resolver: zodResolver(employeeSchema) as any,
     defaultValues: {
       status: 'Active',
       role: 'Employee',
@@ -128,7 +128,7 @@ const EmployeeFormPage: React.FC = () => {
         </div>
       )}
 
-      <form onSubmit={handleSubmit(onSubmit)} className="bg-card border border-border p-6 rounded-xl shadow-sm space-y-6">
+      <form onSubmit={handleSubmit(onSubmit as any)} className="bg-card border border-border p-6 rounded-xl shadow-sm space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-2">
             <Label htmlFor="employeeId">Employee ID *</Label>

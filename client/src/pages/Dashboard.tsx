@@ -118,7 +118,7 @@ const Dashboard: React.FC = () => {
                       itemStyle={{ color: 'var(--foreground)' }}
                     />
                     <Bar dataKey="count" fill="#8884d8" radius={[4, 4, 0, 0]}>
-                      {stats.departmentCounts.map((entry, index) => (
+                      {stats.departmentCounts.map((_, index) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                       ))}
                     </Bar>
@@ -150,7 +150,7 @@ const Dashboard: React.FC = () => {
                     paddingAngle={5}
                     dataKey="value"
                   >
-                    {pieData.map((entry, index) => (
+                    {pieData.map((_, index) => (
                       <Cell key={`cell-${index}`} fill={PIE_COLORS[index % PIE_COLORS.length]} />
                     ))}
                   </Pie>

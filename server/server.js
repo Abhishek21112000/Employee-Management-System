@@ -23,11 +23,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
     origin: function (origin, callback) {
-      if (!origin || /^http:\/\/localhost:\d+$/.test(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error('Not allowed by CORS'));
-      }
+      // Allow all origins for Vercel deployment
+      callback(null, origin || true);
     },
     credentials: true,
   })

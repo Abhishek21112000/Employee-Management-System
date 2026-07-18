@@ -23,8 +23,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
     origin: function (origin, callback) {
-      // Allow all origins for Vercel deployment
-      callback(null, origin || true);
+      const allowedOrigins = [
+        'http://localhost:5173',
+        'https://employee-management-system-rtfx-3lwctem5a-ems14.vercel.app'
+      ];
+      if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
     },
     credentials: true,
   })
